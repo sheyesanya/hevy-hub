@@ -1,0 +1,442 @@
+<!DOCTYPE html><html lang="en" class="dark"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=block" rel="stylesheet"><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">try{
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-background": "#e2e2e5",
+                        "surface-container": "#1e2022",
+                        "inverse-surface": "#e2e2e5",
+                        "on-secondary": "#313032",
+                        "on-tertiary-container": "#ca975f",
+                        "surface-container-highest": "#333537",
+                        "primary": "#a7caf3",
+                        "on-surface": "#e2e2e5",
+                        "on-secondary-fixed": "#1c1b1d",
+                        "tertiary": "#f3bc80",
+                        "on-error": "#690005",
+                        "secondary": "#c8c6c8",
+                        "error": "#ffb4ab",
+                        "surface-container-lowest": "#0d0e11",
+                        "surface-container-high": "#282a2d",
+                        "on-primary-fixed-variant": "#24496c",
+                        "surface-dim": "#121316",
+                        "surface-tint": "#a7caf3",
+                        "surface-bright": "#38393c",
+                        "primary-fixed-dim": "#a7caf3",
+                        "tertiary-fixed-dim": "#f3bc80",
+                        "inverse-on-surface": "#2f3033",
+                        "on-primary-container": "#82a4cc",
+                        "outline-variant": "#42474e",
+                        "surface": "#121316",
+                        "on-error-container": "#ffdad6",
+                        "outline": "#8d9199",
+                        "on-secondary-fixed-variant": "#474649",
+                        "secondary-fixed-dim": "#c8c6c8",
+                        "primary-container": "#123a5c",
+                        "tertiary-fixed": "#ffddba",
+                        "background": "#121316",
+                        "on-tertiary": "#482900",
+                        "on-tertiary-fixed": "#2b1700",
+                        "inverse-primary": "#3e6185",
+                        "primary-fixed": "#d0e4ff",
+                        "on-primary-fixed": "#001d35",
+                        "surface-container-low": "#1a1c1e",
+                        "on-tertiary-fixed-variant": "#643f0d",
+                        "secondary-container": "#474649",
+                        "error-container": "#93000a",
+                        "on-primary": "#063254",
+                        "on-secondary-container": "#b7b4b7",
+                        "tertiary-container": "#523000",
+                        "secondary-fixed": "#e5e1e4",
+                        "on-surface-variant": "#c3c7cf",
+                        "surface-variant": "#333537"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "margin-mobile": "16px",
+                        "gutter": "24px",
+                        "margin-desktop": "48px",
+                        "unit": "4px",
+                        "container-max": "1440px"
+                    },
+                    "fontFamily": {
+                        "headline-lg": ["IBM Plex Sans"],
+                        "label-sm": ["IBM Plex Sans"],
+                        "headline-md": ["IBM Plex Sans"],
+                        "body-lg": ["IBM Plex Sans"],
+                        "headline-lg-mobile": ["IBM Plex Sans"],
+                        "body-md": ["IBM Plex Sans"],
+                        "headline-xl": ["IBM Plex Sans"],
+                        "label-md": ["IBM Plex Sans"],
+                        "mono": ["IBM Plex Mono"]
+                    },
+                    "fontSize": {
+                        "headline-lg": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "700"}],
+                        "label-sm": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+                        "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                        "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                        "headline-lg-mobile": ["28px", {"lineHeight": "34px", "fontWeight": "700"}],
+                        "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                        "headline-xl": ["40px", {"lineHeight": "48px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                        "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "600"}]
+                    }
+                }
+            }
+        }
+    }catch(_e){}</script><meta charset="utf-8">
+<title>HEVY HUB | AI &amp; Technology Infrastructure</title>
+<meta name="description" content="Hevy Hub is the AI and technology division of Hevy Global, and home to BrandCasta.">
+<link rel="icon" type="image/png" href="assets/images/favicon.png">
+<link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+<style>
+  .material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    line-height: 1;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+  }
+  #mobile-nav { display: none; }
+  #mobile-nav.open { display: flex; }
+</style>
+</head><body class="bg-background">
+<!-- MASTHEAD -->
+<div class="w-full bg-primary-container h-10 flex items-center justify-between px-margin-desktop">
+<a href="https://hevyglobal.com" class="font-label-md text-label-md text-white-pure opacity-80 tracking-widest uppercase hover:opacity-100">Hevy Global</a>
+<div class="flex gap-4 items-center">
+<a href="https://live.hevyglobal.com" title="Hevy Live"><span class="material-symbols-outlined text-white-pure opacity-60 hover:opacity-100 text-[18px]">security</span></a>
+<a href="https://hevyglobal.com" title="Hevy Global"><span class="material-symbols-outlined text-white-pure opacity-60 hover:opacity-100 text-[18px]">public</span></a>
+<a href="https://sounds.hevyglobal.com" title="Hevy Sounds"><span class="material-symbols-outlined text-white-pure opacity-60 hover:opacity-100 text-[18px]">data_thresholding</span></a>
+<a href="https://sports.hevyglobal.com" title="Hevy Sports"><span class="material-symbols-outlined text-white-pure opacity-60 hover:opacity-100 text-[18px]">hub</span></a>
+<a href="https://conference.hevyglobal.com" title="Hevy Conference"><span class="material-symbols-outlined text-white-pure opacity-60 hover:opacity-100 text-[18px]">terminal</span></a>
+<a href="https://modulusmedia.org" title="Modulus Media"><span class="material-symbols-outlined text-white-pure opacity-60 hover:opacity-100 text-[18px]">cloud_done</span></a>
+</div>
+</div>
+<!-- MAIN NAV -->
+<header class="fixed top-10 w-full z-50 bg-background/80 backdrop-blur-md border-b border-white/10">
+<nav class="flex justify-between items-center px-margin-desktop py-4 w-full max-w-container-max mx-auto">
+<div class="flex flex-col">
+<span class="font-headline-md text-headline-md font-bold text-white-pure tracking-tight">HEVY HUB</span>
+
+</div>
+<div class="hidden md:flex items-center gap-8">
+<a href="#products" class="font-body-md text-body-md text-primary font-bold border-b-2 border-primary pb-1">Products</a>
+<a href="#products" class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors duration-200">Labs</a>
+<a href="mailto:hello@hub.hevyglobal.com" class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors duration-200">Careers</a>
+<a href="mailto:hello@hub.hevyglobal.com" class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors duration-200">Contact</a>
+</div>
+<div class="flex items-center gap-3">
+<a href="mailto:hello@hub.hevyglobal.com" class="hidden md:inline-block bg-white text-on-primary-fixed font-label-md text-label-md px-6 py-2.5 rounded-none hover:bg-primary transition-all duration-200 uppercase tracking-wider">
+                Get in Touch
+            </a>
+<button id="mobile-nav-toggle" class="md:hidden text-white p-2" aria-label="Open menu" aria-expanded="false">
+<span class="material-symbols-outlined text-[26px]">menu</span>
+</button>
+</div>
+</nav>
+<div id="mobile-nav" class="md:hidden flex-col gap-md px-margin-mobile py-md bg-background border-t border-white/10">
+<a href="#products" class="text-white font-body-md text-body-md py-2">Products</a>
+<a href="mailto:hello@hub.hevyglobal.com" class="text-white font-body-md text-body-md py-2">Contact</a>
+</div>
+</header>
+<main class="pt-24">
+<!-- HERO -->
+<section class="relative min-h-[90vh] flex flex-col items-center justify-center text-center overflow-hidden hero-gradient px-margin-mobile">
+<!-- Background Decoration -->
+<div class="absolute inset-0 z-0 opacity-30 pointer-events-none">
+
+</div>
+<div class="relative z-10 max-w-4xl">
+<h1 class="font-headline-xl text-headline-xl text-white-pure mb-6 max-w-3xl mx-auto leading-tight">
+                    Building the Technology Infrastructure Behind Culture-First Businesses
+                </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-12 max-w-2xl mx-auto">
+                    We engineer high-density digital ecosystems that empower media owners, talent managers, and brands to operate at the speed of contemporary culture.
+                </p>
+<!-- Stat Strip -->
+<div class="inline-flex flex-wrap items-center justify-center gap-8 py-4 px-8 border border-white/10 bg-surface-container-lowest/50 backdrop-blur-sm">
+<span class="font-mono text-label-md text-primary uppercase">450+ active users</span>
+<span class="w-1.5 h-1.5 rounded-full bg-white/20"></span>
+<span class="font-mono text-label-md text-primary uppercase">5 products</span>
+<span class="w-1.5 h-1.5 rounded-full bg-white/20"></span>
+<span class="font-mono text-label-md text-primary uppercase">Built for scale</span>
+</div>
+</div>
+<div class="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce opacity-40">
+<span class="material-symbols-outlined text-white-pure">expand_more</span>
+</div>
+</section>
+<!-- PRODUCTS GRID -->
+<section id="products" class="py-24 px-margin-desktop max-w-container-max mx-auto">
+<div class="flex items-center justify-between mb-12">
+<h2 class="font-headline-lg text-headline-lg text-white-pure">What We're Building</h2>
+<div class="h-[1px] flex-grow mx-8 bg-white/10"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- Card 1 -->
+<div class="industrial-border panel-fill p-8 flex flex-col h-full rounded-[12px] group hover:bg-primary-container/20 transition-all duration-300">
+<span class="material-symbols-outlined text-primary mb-6 text-[32px]">campaign</span>
+<h3 class="font-headline-md text-headline-md text-white-pure mb-4">BrandCasta</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-8 flex-grow">Advanced marketplace for high-impact media campaign placement and attribution.</p>
+<a class="font-label-md text-label-md text-primary flex items-center gap-2 group-hover:gap-4 transition-all" href="https://brandcasta.co">
+                        DEPLOY <span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</a>
+</div>
+<!-- Card 2 -->
+<div class="industrial-border panel-fill p-8 flex flex-col h-full rounded-[12px] group hover:bg-primary-container/20 transition-all duration-300">
+<span class="material-symbols-outlined text-primary mb-6 text-[32px]">query_stats</span>
+<h3 class="font-headline-md text-headline-md text-white-pure mb-4">AI Talent Analytics</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-8 flex-grow">Predictive engine for identifying cultural shifts and talent growth trajectories.</p>
+<a class="font-label-md text-label-md text-primary flex items-center gap-2 group-hover:gap-4 transition-all" href="mailto:hello@hub.hevyglobal.com">
+                        ACCESS <span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</a>
+</div>
+<!-- Card 3 -->
+<div class="industrial-border panel-fill p-8 flex flex-col h-full rounded-[12px] group hover:bg-primary-container/20 transition-all duration-300">
+<span class="material-symbols-outlined text-primary mb-6 text-[32px]">account_balance</span>
+<h3 class="font-headline-md text-headline-md text-white-pure mb-4">Rights &amp; Royalty</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-8 flex-grow">Blockchain-agnostic ledger system for transparent global royalty distribution.</p>
+<a class="font-label-md text-label-md text-primary flex items-center gap-2 group-hover:gap-4 transition-all" href="mailto:hello@hub.hevyglobal.com">
+                        AUDIT <span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</a>
+</div>
+<!-- Card 4 -->
+<div class="industrial-border panel-fill p-8 flex flex-col h-full rounded-[12px] group hover:bg-primary-container/20 transition-all duration-300">
+<span class="material-symbols-outlined text-primary mb-6 text-[32px]">science</span>
+<h3 class="font-headline-md text-headline-md text-white-pure mb-4">Hevy Labs R&amp;D</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-8 flex-grow">Incubating the next generation of specialized creator-economy tools.</p>
+<a class="font-label-md text-label-md text-primary flex items-center gap-2 group-hover:gap-4 transition-all" href="mailto:hello@hub.hevyglobal.com">
+                        EXPLORE <span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</section>
+<!-- SPOTLIGHT -->
+<section class="px-margin-desktop max-w-container-max mx-auto mb-24">
+<div class="industrial-border bg-primary-container/40 p-12 flex flex-col md:flex-row items-center gap-12 rounded-none overflow-hidden relative">
+<div class="md:w-3/5 relative z-10">
+<span class="font-label-md text-label-md text-primary uppercase tracking-[0.2em] mb-4 block">Product Spotlight</span>
+<h2 class="font-headline-xl text-headline-xl text-white-pure mb-6">Meet BrandCasta</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-8">
+                        The ultimate OS for media owners. BrandCasta provides the granular controls required to book, manage, and report on complex multi-channel media campaigns with surgical precision.
+                    </p>
+<a href="https://brandcasta.co" class="inline-block border border-white text-white-pure font-label-md text-label-md px-8 py-3 hover:bg-white hover:text-background transition-all uppercase tracking-widest">
+                        Request Access
+                    </a>
+</div>
+<div class="md:w-2/5 flex justify-center opacity-40">
+<!-- Technical line art representation of advertising reach -->
+<span class="material-symbols-outlined text-white-pure text-[240px] font-thin">stream</span>
+</div>
+</div>
+</section>
+<!-- BY THE NUMBERS -->
+<section class="bg-surface-container-lowest py-24 border-y border-white/5">
+<div class="px-margin-desktop max-w-container-max mx-auto grid grid-cols-2 lg:grid-cols-4 gap-gutter text-center">
+<div>
+<div class="font-mono text-[48px] font-bold text-white-pure mb-2">450+</div>
+<div class="font-label-md text-label-md text-on-surface-variant uppercase tracking-widest">Active Users</div>
+</div>
+<div>
+<div class="font-mono text-[48px] font-bold text-white-pure mb-2">1.2k</div>
+<div class="font-label-md text-label-md text-on-surface-variant uppercase tracking-widest">Media Providers</div>
+</div>
+<div>
+<div class="font-mono text-[48px] font-bold text-white-pure mb-2">42</div>
+<div class="font-label-md text-label-md text-on-surface-variant uppercase tracking-widest">Global Cities</div>
+</div>
+<div>
+<div class="font-mono text-[48px] font-bold text-white-pure mb-2">99.9%</div>
+<div class="font-label-md text-label-md text-on-surface-variant uppercase tracking-widest">System Uptime</div>
+</div>
+</div>
+</section>
+<!-- NEWS -->
+<section id="news" class="py-24 px-margin-desktop max-w-container-max mx-auto">
+<div class="flex items-center justify-between mb-12">
+<h2 class="font-headline-lg text-headline-lg text-white-pure">Latest From Hevy Hub</h2>
+<a class="font-label-md text-label-md text-primary uppercase" href="#news">View Journal</a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<div class="flex flex-col group cursor-pointer">
+<div class="aspect-video mb-6 overflow-hidden industrial-border">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-500" data-alt="A professional architectural photograph of a high-tech server farm at night, featuring rows of glowing blue led lights on sleek black metal racks. The atmosphere is quiet, technological, and intensely focused on data infrastructure. The lighting is low-key, emphasizing the precision of the hardware in a dark-mode industrial noir aesthetic." style="background-image: url('assets/images/a-professional-architectural-photograph.jpg')"></div>
+</div>
+<div class="mb-3">
+<span class="inline-block bg-primary-container text-primary font-label-sm text-label-sm px-2 py-1 uppercase">Hevy Hub</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-white-pure mb-3 group-hover:text-primary transition-colors">Scaling to 10M requests: Architecture Review</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">A technical deep-dive into our recent infrastructure upgrades for global scale.</p>
+</div>
+<div class="flex flex-col group cursor-pointer">
+<div class="aspect-video mb-6 overflow-hidden industrial-border">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-500" data-alt="A close-up macro photograph of high-end circuit board components, featuring silver and copper traces on a deep charcoal matte substrate. Soft blue ambient lighting catches the edges of microchips and capacitors, creating a sense of complex technological precision. The overall mood is professional, monochromatic, and reflects the core values of an enterprise technology firm." style="background-image: url('assets/images/a-close-up-macro-photograph.jpg')"></div>
+</div>
+<div class="mb-3">
+<span class="inline-block bg-primary-container text-primary font-label-sm text-label-sm px-2 py-1 uppercase">Hevy Hub</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-white-pure mb-3 group-hover:text-primary transition-colors">The Future of AI in Media Planning</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">How generative models are reshaping the way brands interact with cultural talent.</p>
+</div>
+<div class="flex flex-col group cursor-pointer">
+<div class="aspect-video mb-6 overflow-hidden industrial-border">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-500" data-alt="A wide-angle interior shot of a modern, minimalist corporate office atrium at dusk. Large floor-to-ceiling glass windows reveal a cold, blue-toned city skyline in the background. The interior features sharp geometric shadows, steel beams, and polished concrete floors. The aesthetic is clean, professional, and authoritarian, conveying a sense of corporate-grade stability and modern design." style="background-image: url('assets/images/a-wide-angle-interior-shot.jpg')"></div>
+</div>
+<div class="mb-3">
+<span class="inline-block bg-primary-container text-primary font-label-sm text-label-sm px-2 py-1 uppercase">Hevy Hub</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-white-pure mb-3 group-hover:text-primary transition-colors">Hevy Global Expands to Dubai Hub</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Opening our new regional headquarters to better serve MENA media owners.</p>
+</div>
+</div>
+</section>
+<!-- MISSION -->
+<section class="py-24 px-margin-desktop max-w-container-max mx-auto border-t border-white/10">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
+<div>
+<span class="font-label-md text-label-md text-primary uppercase tracking-widest mb-4 block">Part of Hevy Global</span>
+<h2 class="font-headline-xl text-headline-xl text-white-pure mb-8">Engineering a More Equitable Cultural Economy</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-6">
+                        Hevy Hub is the technological engine of Hevy Global. We believe that technology should be a bridge, not a barrier, for cultural businesses. Our mission is to build the tools that ensure transparency, speed, and scale for everyone in the value chain.
+                    </p>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+                        By combining enterprise-grade reliability with an intimate understanding of modern media, we're creating the standard for the next generation of creative infrastructure.
+                    </p>
+</div>
+<div class="grid grid-cols-2 gap-4 relative">
+<div class="industrial-border aspect-square overflow-hidden relative">
+<div class="w-full h-full bg-cover bg-center" data-alt="A striking black and white portrait of a diverse engineering team collaborating around a glowing screen in a dark, modern studio. High-contrast lighting highlights their focused expressions and the technical diagrams visible on the monitor. The atmosphere is one of intense collaboration, discipline, and professional expertise in a specialized technology environment." style="background-image: url('assets/images/a-striking-black-and.jpg')"></div>
+<div class="absolute inset-0 bg-primary/20 mix-blend-multiply"></div>
+</div>
+<div class="industrial-border aspect-square overflow-hidden relative mt-8">
+<div class="w-full h-full bg-cover bg-center" data-alt="A minimalist architectural shot of a sleek, black skyscraper facade against a deep blue evening sky. The repetitive glass patterns create a rhythmic, structured feel that symbolizes corporate strength and technological scalability. Monochromatic tones and sharp angles dominate the composition, reinforcing a high-end corporate-grade aesthetic." style="background-image: url('assets/images/a-minimalist-architectural-shot.jpg')"></div>
+<div class="absolute inset-0 bg-primary/20 mix-blend-multiply"></div>
+</div>
+<div class="industrial-border aspect-square overflow-hidden relative -mt-8">
+<div class="w-full h-full bg-cover bg-center" data-alt="A top-down view of a designer's workspace featuring a tablet with complex node-based network graphics. The room is dimly lit, with a single focused desk lamp casting sharp shadows. The aesthetic is tech-focused and precise, illustrating the detailed research and development process of modern interface design." style="background-image: url('assets/images/a-top-down-view-of.jpg')"></div>
+<div class="absolute inset-0 bg-primary/20 mix-blend-multiply"></div>
+</div>
+<div class="industrial-border aspect-square overflow-hidden relative">
+<div class="w-full h-full bg-cover bg-center" data-alt="A long-exposure photograph of light trails in a dense urban financial district. The streaks of white and blue light create a sense of data flowing through a city's network. The surrounding architecture is dark and imposing, suggesting a robust and secure foundation for modern commerce and digital communication." style="background-image: url('assets/images/a-long-exposure-photograph-of.jpg')"></div>
+<div class="absolute inset-0 bg-primary/20 mix-blend-multiply"></div>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA BAND -->
+<section class="bg-primary-container py-24 text-center">
+<div class="max-w-4xl mx-auto px-margin-mobile">
+<h2 class="font-headline-xl text-headline-xl text-white-pure mb-12">Let's Build the Future of Culture-First Technology</h2>
+<div class="flex flex-col md:flex-row gap-6 justify-center">
+<a href="mailto:hello@hub.hevyglobal.com" class="bg-white text-on-primary-fixed font-label-md text-label-md px-10 py-4 uppercase tracking-[0.2em] hover:bg-on-background transition-all inline-block">Start a Project</a>
+<a href="mailto:hello@hub.hevyglobal.com" class="border border-white/40 text-white-pure font-label-md text-label-md px-10 py-4 uppercase tracking-[0.2em] hover:bg-white/10 transition-all inline-block">Join the Team</a>
+</div>
+</div>
+</section>
+</main>
+<!-- FOOTER -->
+<footer class="bg-surface-container-lowest border-t border-white/10">
+<div class="max-w-container-max mx-auto px-margin-desktop py-16 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-gutter">
+<div class="col-span-2">
+<div class="flex flex-col mb-6">
+<span class="font-headline-md text-headline-md font-bold text-white-pure tracking-tight">HEVY HUB</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant -mt-1">part of Hevy Global</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xs mb-8">
+                    Standardizing the creator economy through enterprise technology.
+                </p>
+<div class="flex gap-4">
+<a href="#" class="material-symbols-outlined text-white-pure opacity-40 cursor-pointer hover:opacity-100 transition-opacity">share</a>
+<a href="https://hevyglobal.com" class="material-symbols-outlined text-white-pure opacity-40 cursor-pointer hover:opacity-100 transition-opacity">language</a>
+<a href="mailto:hello@hub.hevyglobal.com" class="material-symbols-outlined text-white-pure opacity-40 cursor-pointer hover:opacity-100 transition-opacity">mail</a>
+</div>
+</div>
+<div>
+<h4 class="font-label-md text-label-md text-white-pure uppercase tracking-widest mb-6">Platform</h4>
+<ul class="space-y-4">
+<li class=""><a class="font-body-md text-body-md text-on-surface-variant hover:text-white transition-colors" href="https://brandcasta.co">BrandCasta</a></li>
+<li class=""><a class="font-body-md text-body-md text-on-surface-variant hover:text-white transition-colors" href="mailto:hello@hub.hevyglobal.com">Analytics</a></li>
+<li class=""><a class="font-body-md text-body-md text-on-surface-variant hover:text-white transition-colors" href="mailto:hello@hub.hevyglobal.com">Royalties</a></li>
+<li class=""><a class="font-body-md text-body-md text-on-surface-variant hover:text-white transition-colors" href="mailto:hello@hub.hevyglobal.com">API Docs</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-label-md text-label-md text-white-pure uppercase tracking-widest mb-6">Company</h4>
+<ul class="space-y-4">
+<li class=""><a class="font-body-md text-body-md text-on-surface-variant hover:text-white transition-colors" href="https://hevyglobal.com">About Us</a></li>
+<li class=""><a class="font-body-md text-body-md text-on-surface-variant hover:text-white transition-colors" href="mailto:hello@hub.hevyglobal.com">Careers</a></li>
+<li class=""><a class="font-body-md text-body-md text-on-surface-variant hover:text-white transition-colors" href="mailto:hello@hub.hevyglobal.com">Press</a></li>
+<li class=""><a class="font-body-md text-body-md text-on-surface-variant hover:text-white transition-colors" href="mailto:hello@hub.hevyglobal.com">Contact</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-label-md text-label-md text-white-pure uppercase tracking-widest mb-6">Hevy Global</h4>
+<ul class="space-y-4">
+<li class=""><a class="font-body-md text-body-md text-on-surface-variant hover:text-white transition-colors" href="https://hevyglobal.com">Global</a></li>
+<li class=""><a class="font-body-md text-body-md text-on-surface-variant hover:text-white transition-colors" href="https://live.hevyglobal.com">Live</a></li>
+<li class=""><a class="font-body-md text-body-md text-on-surface-variant hover:text-white transition-colors" href="https://sports.hevyglobal.com">Sports</a></li>
+<li class=""><a class="font-body-md text-body-md text-on-surface-variant hover:text-white transition-colors" href="https://sounds.hevyglobal.com">Sounds</a></li>
+<li class=""><a class="font-body-md text-body-md text-on-surface-variant hover:text-white transition-colors" href="https://conference.hevyglobal.com">Conference</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-label-md text-label-md text-white-pure uppercase tracking-widest mb-6">Resources</h4>
+<ul class="space-y-4">
+<li class=""><a class="font-body-md text-body-md text-on-surface-variant hover:text-white transition-colors" href="#">Labs Journal</a></li>
+<li class=""><a class="font-body-md text-body-md text-on-surface-variant hover:text-white transition-colors" href="#">Open Source</a></li>
+<li class=""><a class="font-body-md text-body-md text-on-surface-variant hover:text-white transition-colors" href="#">Research</a></li>
+<li class=""><a class="font-body-md text-body-md text-on-surface-variant hover:text-white transition-colors" href="#">Security</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-label-md text-label-md text-white-pure uppercase tracking-widest mb-6">Legal</h4>
+<ul class="space-y-4">
+<li class=""><a class="font-body-md text-body-md text-on-surface-variant hover:text-white transition-colors" href="#">Privacy</a></li>
+<li class=""><a class="font-body-md text-body-md text-on-surface-variant hover:text-white transition-colors" href="#">Terms</a></li>
+<li class=""><a class="font-body-md text-body-md text-on-surface-variant hover:text-white transition-colors" href="#">Cookie Policy</a></li>
+<li class=""><a class="font-body-md text-body-md text-on-surface-variant hover:text-white transition-colors" href="#">Governance</a></li>
+</ul>
+</div>
+</div>
+<div class="px-margin-desktop max-w-container-max mx-auto py-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4">
+<span class="font-label-sm text-label-sm text-on-surface-variant">© 2026 Hevy Global. All rights reserved.</span>
+<div class="flex gap-8">
+<a href="https://hub.hevyglobal.com" class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-[0.2em] hover:text-white transition-colors">Hevy Hub</a>
+<a href="https://live.hevyglobal.com" class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-[0.2em] hover:text-white transition-colors">Hevy Talent</a>
+<a href="https://modulusmedia.org" class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-[0.2em] hover:text-white transition-colors">Hevy Media</a>
+</div>
+</div>
+</footer>
+<script>
+        // Micro-interaction for buttons
+        document.querySelectorAll('button').forEach(btn => {
+            btn.addEventListener('mousedown', () => btn.style.opacity = '0.8');
+            btn.addEventListener('mouseup', () => btn.style.opacity = '1');
+        });
+
+        // Mobile nav toggle
+        const navToggle = document.getElementById('mobile-nav-toggle');
+        const mobileNav = document.getElementById('mobile-nav');
+        if (navToggle && mobileNav) {
+            navToggle.addEventListener('click', () => {
+                const isOpen = mobileNav.classList.toggle('open');
+                navToggle.setAttribute('aria-expanded', isOpen);
+            });
+            mobileNav.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', () => mobileNav.classList.remove('open'));
+            });
+        }
+    </script>
+
+</body></html>
